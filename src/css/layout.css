@@ -2,6 +2,26 @@
   display: none; /* Chrome, Safari, Opera*/
 }
 
+.blind {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
 body {
   font-family: "DM Sans", "Noto Sans KR", sans-serif;
   font-size: 16px;
@@ -62,39 +82,39 @@ button {
   width: 100%;
 }
 
-#right {
+.right {
   flex-basis: 30%;
   padding: 80px 100px 80px 40px;
   background-color: #777;
 }
-#right #thisWeek #dDay {
+.right #thisWeek #dDay {
   margin-bottom: 30px;
   font-size: 50px;
   font-weight: 300;
 }
-#right #thisWeek .bookCover {
+.right #thisWeek .bookCover {
   margin-bottom: 30px;
 }
-#right #thisWeek .bookCover img {
+.right #thisWeek .bookCover img {
   width: 100%;
 }
-#right #thisWeek .bookInfo .bookTitle {
+.right #thisWeek .bookInfo .bookTitle {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 20px;
 }
-#right #thisWeek .bookInfo .desc {
+.right #thisWeek .bookInfo .desc {
   flex-basis: 80%;
   line-height: 1.5;
   font-weight: 400;
 }
-#right #search .searchBox {
+.right #search .searchBox {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
-#right #search .searchBox #keyword {
+.right #search .searchBox #keyword {
   flex-basis: 80%;
   height: 45px;
   padding: 0 20px;
@@ -102,75 +122,75 @@ button {
   border: 1px solid #111;
   outline: none;
 }
-#right #search .searchBox button {
+.right #search .searchBox button {
   flex-basis: 10%;
   padding: 0;
   border: 1px solid #111;
   background-color: #fff;
 }
-#right #search .list {
+.right #search .list {
   width: 100%;
 }
-#right #search .list li img {
+.right #search .list li img {
   width: 100%;
 }
-#right #search #result > ul {
+.right #search #result > ul {
   display: flex;
   flex-wrap: wrap;
 }
-#right #search #result li {
+.right #search #result li {
   margin-bottom: 20px;
 }
-#right #search #result li .img {
+.right #search #result li .img {
   margin-bottom: 20px;
 }
-#right #search #result li .info .title {
+.right #search #result li .info .title {
   font-weight: 800;
 }
-#right #search #result li .info .author {
+.right #search #result li .info .author {
   font-weight: 400;
 }
-#right #search #result li.selected {
+.right #search #result li.selected {
   border: 2px solid #111;
 }
-#right #review {
+.right #review {
   position: relative;
 }
-#right #review .inputBox {
+.right #review .inputBox {
   padding-bottom: 30px;
 }
-#right #review .inputBox #reviewTitle {
+.right #review .inputBox #reviewTitle {
   display: flex;
 }
-#right #review .inputBox #reviewTitle .label {
+.right #review .inputBox #reviewTitle .label {
   flex-basis: 25%;
 }
-#right #review .inputBox #reviewTitle input {
+.right #review .inputBox #reviewTitle input {
   width: 100%;
 }
-#right #review .inputBox textarea {
+.right #review .inputBox textarea {
   width: 100%;
   resize: none;
 }
-#right #review .inputBox .memberList {
+.right #review .inputBox .memberList {
   width: 100%;
 }
-#right #review .inputBox .memberList ul {
+.right #review .inputBox .memberList ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#right #review .inputBox .memberList ul li span {
+.right #review .inputBox .memberList ul li span {
   margin-right: 3px;
 }
-#right #review #desc {
+.right #review #desc {
   width: 100%;
 }
-#right #review .btn {
+.right #review .btn {
   display: flex;
   justify-content: end;
 }
-#right #review .line {
+.right #review .line {
   width: 100%;
   height: 1px;
   margin: 50px 0;

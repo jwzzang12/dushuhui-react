@@ -1,4 +1,3 @@
-import "./css/common.css";
 import "./css/layout.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ThisWeek from "./components/ThisWeek";

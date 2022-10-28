@@ -2,6 +2,22 @@
 ::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera*/
 }
+.blind {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+li {
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+}
 body {
   font-family: "DM Sans", "Noto Sans KR", sans-serif;
   font-size: 16px;
@@ -60,7 +76,7 @@ button {
     }
   }
 }
-#right {
+.right {
   flex-basis: 30%;
   padding: 80px 100px 80px 40px;
   background-color: $sub-color;
